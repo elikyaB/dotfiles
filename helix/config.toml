@@ -1,0 +1,65 @@
+theme = "snazzy"
+
+[editor]
+line-number = "relative"
+mouse = false
+shell = ["nu", "-c"]
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+# [editor.indent-guides]
+# render = true
+# character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
+# skip-levels = 1
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+ignore = false
+git-ignore = false
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25
+wrap-indicator = ""
+
+[keys.normal]
+d = "delete_selection_noyank"
+A-d = "delete_selection"
+c = "change_selection_noyank"
+A-c = "change_selection"
+"ret" = ["open_below", "normal_mode"]
+X = "extend_line_above"
+# C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
+
+[keys.normal.space]
+f = "file_picker_in_current_directory"
+F = "file_picker_in_current_buffer_directory"
+
+[keys.normal.g]
+k = "page_cursor_up"
+j = "page_cursor_down"
+
+[keys.select]
+d = "delete_selection_noyank"
+A-d = "delete_selection"
+c = "change_selection_noyank"
+A-c = "change_selection"
+"ret" = ["open_below", "normal_mode"]
+x = "select_line_below"
+X = "select_line_above"
+
+[keys.select.space]
+f = "file_picker_in_current_directory"
+F = "file_picker_in_current_buffer_directory"
+
+[keys.select.g]
+k = "page_cursor_up"
+j = "page_cursor_down"

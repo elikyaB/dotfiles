@@ -1,0 +1,59 @@
+[[language]]
+name = "javascript"
+indent = { tab-width = 2, unit = "\t" }
+file-types = ["js"]
+language-servers = ["typescript-language-server"]
+
+[[language]]
+name = "typescript"
+indent = { tab-width = 2, unit = "\t" }
+file-types = ["ts"]
+language-servers = ["typescript-language-server"]
+
+# [[language]]
+# name = "typescriptreact"
+# language-id = "typescriptreact"
+# scope = "source.tsx"
+# indent = { tab-width = 2, unit = "\t" }
+# file-types = ["tsx"]
+# language-servers = ["typescript-language-server"]
+
+[[language]]
+name = "html"
+indent = { tab-width = 2, unit = "\t" }
+file-types = ["html"]
+language-servers = ["vscode-html-language-server"]
+
+[[language]]
+name = "css"
+indent = { tab-width = 2, unit = "\t" }
+file-types = ["css"]
+language-servers = ["vscode-css-language-server"]
+
+[[language]]
+name = "scss"
+indent = { tab-width = 2, unit = "\t" }
+file-types = ["scss"]
+language-servers = ["vscode-css-language-server"]
+
+[[language]]
+name = "svelte"
+scope = "source.svelte"
+language-servers = ["svelteserver", "svelte-language-server"]
+indent = { tab-width = 2, unit = "\t" }
+file-types = ["svelte"]
+
+[[language]]
+name = "toml"
+language-servers = ["taplo"]
+indent = { tab-width = 2, unit = "\t" }
+file-types = ["toml"]
+
+[[language]]
+name = "go"
+auto-format = true
+formatter = { command = "goimports" }
+
+[[language]]
+name = "devicetree"
+file-types = ["keymap"]

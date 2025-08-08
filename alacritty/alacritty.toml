@@ -1,0 +1,12 @@
+[shell]
+program = "/opt/homebrew/bin/nu"
+
+[window]
+decorations = "Buttonless"
+startup_mode = "Windowed"
+resize_increments = true
+option_as_alt = "Both"
+
+[font]
+size = 16.0
+normal = { family = "Monofoki", style = "Regular" }
