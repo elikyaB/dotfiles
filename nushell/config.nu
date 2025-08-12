@@ -11,4 +11,5 @@ source ~/.zoxide.nu
 source ~/.local/share/atuin/init.nu
 source ~/.cache/carapace/init.nu
 alias ll = ls **/*
+alias gpom = git_commit_push
 pfetch
