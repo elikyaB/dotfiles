@@ -10,6 +10,8 @@ use ~/.cache/starship/init.nu
 source ~/.zoxide.nu
 source ~/.local/share/atuin/init.nu
 source ~/.cache/carapace/init.nu
+source ~/Dev/dotfiles/nushell/scripts.nu
+source ~/Dev/dotfiles/nushell/theme.nu
 alias ll = ls **/*
-alias gpom = git_commit_push
+alias gpm = git_commit_push
 pfetch
