@@ -48,3 +48,11 @@ def zellij_sessionizer [session: string] {
         zellij a -c -f $in;
     }
 }
+
+def z_ls --env [path: string] {
+    z $path; ls --all;
+}
+
+def zi_ls --env [-l, -a] {
+    zi; ls --all;
+}
